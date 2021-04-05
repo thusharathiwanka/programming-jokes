@@ -6,9 +6,6 @@ const API_URL =
 jokeBtn.addEventListener("click", async () => {
   const response = await fetch(API_URL);
   const data = await response.json();
-
-  console.log(data);
-
   let joke = "";
 
   if (data.joke === undefined) {
