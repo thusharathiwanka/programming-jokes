@@ -1,0 +1,59 @@
+html {
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 5rem 2rem;
+  margin-top: 2rem;
+}
+
+body {
+  background: #caf0f8;
+}
+
+main,
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 50vh;
+  width: 50%;
+  background: red;
+  justify-content: flex-end;
+  padding-bottom: 5rem;
+  background: #90e0ef;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px #0076b635;
+}
+
+button {
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  background: #0077b6;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:active {
+  transform: scale(0.95);
+}
