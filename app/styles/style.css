@@ -61,6 +61,7 @@ button {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   margin-top: 4rem;
+  white-space: nowrap;
 }
 
 button:active {
